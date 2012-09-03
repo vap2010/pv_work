@@ -11,7 +11,6 @@ gem 'rails_admin-treeview'
 gem 'paperclip'
 gem 'fastercsv'
 gem 'ancestry'
-
 gem 'json'
 
 # Gems used only for assets and not required
@@ -42,7 +41,7 @@ end
 
 gem "devise"
 
-gem 'therubyracer', :require => false
+gem 'therubyracer', :platform => :ruby   # vap , :require => false
 
 group :development do
   gem "capistrano"
