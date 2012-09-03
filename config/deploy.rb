@@ -2,7 +2,8 @@ require "bundler/capistrano"
 load 'deploy/assets'
 
 set :application, "Putivetra"
-set :repository,  "git@github.com:oruen/putivetra.git"
+## set :repository,  "git@github.com:oruen/putivetra.git"
+set :repository,  "git@github.com:vap2010/pv_work.git"
 set :user, "application"
 set :deploy_to, "/application/rails/putivetra"
 set :use_sudo, false
